@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web informativa sobre formación profesional en informática con cursos, recursos y noticias actualizadas.">
+  <title>Formación Profesional en Informática</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Formación Profesional en Informática</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#Menús">Menús</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#Fotos">Fotos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ 
+  <main>
+
+    <section id="inicio">
+      <h2>Pizzerias Tomillo</h2>
+      <p>Somos una nueva pizzería local, vendemos pizzas caseras con los ingredientes más frescos.</p>
+      <figure>
+        <img src="pizzeria.jpg.jpg" height="100px" width="250px"/>
+        <figcaption>foto pizzeria</figcaption>
+      </figure>
+    </section>
+
+    <section id="Menús">
+      <h2>Menús disponibles</h2>
+      
+      <article>
+        <h3>Mediterranea</h3>
+        <p>Tomate natural, mozzarella fresca, aceitunas negras, pimientos asados, cebolla morada, orégano y un toque de aceite de oliva virgen extra.</p>
+      </article>
+      <article>
+        <h3>Diavola Picante</h3>
+        <p>Salsa de tomate, mozzarella, salami picante, jalapeños, peperoncino y un toque de miel para equilibrar el picante.</p>
+      </article>
+      <article>
+        <h3>Bosque y Trufa</h3>
+        <p>Crema de queso, mozzarella, champiñones portobello, boletus, jamón serrano y aceite de trufa.</p>
+      </article>
+
+      <table>
+        <caption>Precios</caption>
+        <thead>
+          <tr>
+            <th>Pizza</th>
+            <th>Tamaños disponibles</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mediterranea</td>
+            <td>Pequeña - Mediana - Familiar</td>
+            <td>7,99€ - 11,90€ - 15,70€</td>
+          </tr>
+          <tr>
+            <td>Diavola Picante</td>
+            <td>Mediana - Familiar</td>
+            <td>11,90€ - 15,70€</td>
+          </tr>
+          <tr>
+            <td>Bosque y Trufa</td>
+            <td>Mediana</td>
+            <td>11,90€</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="Noticias">
+      <h2>Últimas Noticias Sobre Pizzerias Tomillo!</h2>
+      <article>
+        <h3>Nueva Pizzería con las mejores pizzas caseras de la localidad!</h3>
+        <p>Cuenta con unas instalaciones nuevas y unas muy buenas valoraciónes con los mejores precios.</p>
+        <a href="noticia1.html">Leer más</a>
+      </article>
+      <article>
+        <h3>Hoy probaremos las pizzas de esta nueva pizzeria!</h3>
+        <p>Hoy nos venimos hasta esta nueva pizzería a hacer un review debido a las reomendaciones que me habéis hecho...</p>
+        <a href="noticia2.html">Leer más</a>
+      </article>
+    </section>
+
+    <section id="multimedia">
+      <h2>Video de Presentación</h2>
+      <video controls>
+        <source src="video/introduccion.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </section>
+
+   
+    <section id="contacto">
+      <h2>Pedidos a domicilio a traves de la web</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="Pedido">Pedido:</label>
+        <textarea id="Pedido" name="Pedido" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+   
+    <section id="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Tienen opciones sin gluten?</summary>
+        <p>Sí, ofrecemos masa sin gluten para todas nuestras pizzas. Solo tienes que indicarlo al hacer tu pedido. </p>
+      </details>
+      <details>
+        <summary>¿Se puede personalizar una pizza?</summary>
+        <p>Claro que sí. Puedes elegir los ingredientes que quieras, añadir o quitar según tus gustos. Consulta a nuestro personal para saber los suplementos.</p>
+      </details>
+      <details>
+        <summary>¿Puedo hacer un pedido anticipado?</summary>
+        <p>Sí, aceptamos pedidos programados tanto para recoger como para entrega. Puedes llamarnos o hacerlo a través de nuestra web.</p>
+      </details>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>&copy; 2025 Pizzerias Tomillo. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#Menús">Menús</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
