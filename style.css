@@ -1,0 +1,28 @@
+#logo {
+    width: 10em;
+}
+
+#header {
+    display: flex;
+}
+
+#menuBar {
+    display: flex;
+    list-style: none;
+}
+
+#menuBar li{
+    margin-right: 25%;
+}
+
+#menuBar li a{
+    text-decoration: none;
+    color: red;
+}
+
+#menuBar li a:hover{
+    color: purple;
+}
+#logo {
+    width: 10em;
+}
