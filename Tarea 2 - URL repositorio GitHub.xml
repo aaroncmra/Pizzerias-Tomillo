@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+
+    <!-- METADATOS DEL CANAL -->
+    <title>Pizzerias Tomillo – Novedades</title>
+    <link>https://aaroncmra.github.io/Pizzerias-Tomillo/</link>
+    <description>Últimas noticias y actualizaciones sobre Pizzerias Tomillo.</description>
+    <language>es-es</language>
+    <!-- Fecha de construcción del feed (formato RFC 822) -->
+    <lastBuildDate>Tue, 20 May 2025 12:00:00 GMT</lastBuildDate>
+    <!-- Correo del responsable del sitio (opcional) -->
+    <managingEditor>576@alumnos.fpsumma.com (Nombre del Editor)</managingEditor>
+
+    <!-- ÍTEM 1 -->
+    <item>
+      <title>Sacamos nueva carta de pizzas</title>
+      <link>https://aaroncmra.github.io/Pizzerias-Tomillo/</link>
+      <description>Tenemos nuevas pizzas a la venta</description>
+      <pubDate>Tue, 20 May 2025 08:30:00 GMT</pubDate>
+      <guid>https://aaroncmra.github.io/Pizzerias-Tomillo/</guid>
+    </item>
+
+    <!-- ÍTEM 2 -->
+    <item>
+      <title>Nuevo artículo: Tenemos nuevos hornos caseros</title>
+      <link>https://aaroncmra.github.io/Pizzerias-Tomillo/</link>
+      <description>Hornos caseros mejorados para un sabor más bueno</description>
+      <pubDate>Tue, 20 May 2025 12:00:00 GMT</pubDate>
+      <guid>https://aaroncmra.github.io/Pizzerias-Tomillo/</guid>
+    </item>
+
+  </channel>
+</rss>
