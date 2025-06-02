@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<Menu>
+
+<combo id="P11">
+ <Principal>Pizza margarita</Principal>
+ <Complemento>Pan al ajo</Complemento>
+ <Precio>8</Precio>
+</combo>
+
+<combo id="P12">
+ <Principal>Pizza BBQ</Principal>
+ <Complemento>Chessy Bytes</Complemento>
+ <Precio>7</Precio>
+</combo>
+
+<combo id="P15">
+ <Principal>Pizza mediterranea</Principal>
+ <Complemento>Gouda Rings</Complemento>
+ <Precio>10</Precio>
+</combo>					
+
+</Menu>

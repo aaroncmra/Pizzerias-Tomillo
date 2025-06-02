@@ -1,0 +1,12 @@
+<!-- DTD para menu -->
+
+<!ELEMENT Menu (combo+)>
+
+<!ELEMENT combo (Principal, Complemento, Precio)>
+
+<!ELEMENT Principal (#PCDATA)>
+<!ELEMENT Complemento (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+
+<!ATTLIST combo id ID #REQUIRED>
+
